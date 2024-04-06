@@ -4,8 +4,8 @@ import {useJump} from "./useJump";
 import {BoxStatus} from "../core/boxes/types";
 import {useMovement} from "./useMovement";
 import {useWalls} from "./useWalls";
-import {v4 as uuid} from "uuid"
 import {useDeath} from "./useDeath";
+import {useVictory} from "./useVictory";
 
 export const Player = () => {
 
@@ -15,6 +15,7 @@ export const Player = () => {
     useJump(box)
     useMovement(box)
     useDeath(box)
+    useVictory(box)
 
     return (
         <div style={{...box.cssStyles, background: "orange", borderRadius: "50px"}}>

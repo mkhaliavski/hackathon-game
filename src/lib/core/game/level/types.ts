@@ -10,6 +10,12 @@ export type LevelType = {
         y: number;
         extraSpeed?: number;
     }>
+    victory: {
+        width: number;
+        height: number;
+        x: number;
+        y: number;
+    },
     textures: {
         backgroundPath: string;
         platformPath: string;

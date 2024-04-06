@@ -43,6 +43,12 @@
     }
   ],
   "rockets": [],
+  "victory": {
+    "width": 200,
+    "height": 200,
+    "x": 3650,
+    "y": 600
+  },
   "textures": {
     "backgroundPath": "/textures/background-town.jpg",
     "platformPath": "",
