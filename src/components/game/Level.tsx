@@ -8,6 +8,7 @@ import {LevelType} from "../../lib/core/game/level/types";
 import {useStartTimer} from "../../lib/core/game/useStartTimer";
 import config from "../../config/config.json"
 import {StartTimer} from "./StartTimer";
+import {DeadScreen} from "./DeadScreen/DeadScreen";
 
 type LevelProps = {
     data: LevelType
@@ -22,6 +23,7 @@ export const Level = (props: LevelProps) => {
             <Background url={props.data.textures.backgroundPath}/>
             <Player/>
             <Platforms data={props.data} />
+            <DeadScreen/>
         </Screen>
     )
 }

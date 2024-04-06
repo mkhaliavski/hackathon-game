@@ -31,7 +31,7 @@ export function useGravity(box: BoxObject) {
             }
             if (hasCollision(box, otherBox) === CollisionSide.TOP) {
                 box.y = otherBox.y - box.height;
-                box.status = BoxStatus.STAYING;
+                box.status = BoxStatus.MOVING;
                 return true
             }
         })
@@ -41,7 +41,7 @@ export function useGravity(box: BoxObject) {
         }
 
         // @ts-ignore
-        if (box.status === BoxStatus.STAYING) {
+        if (box.status === BoxStatus.MOVING) {
             currentGravity.current = config.gravity.power
         }
 
