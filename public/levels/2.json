@@ -91,9 +91,9 @@
     "y": 400
   },
   "textures": {
-    "backgroundPath": "/textures/background-town.jpg",
-    "platformPath": "",
-    "rocketPath": "",
-    "exitPath": ""
+    "backgroundPath": "/textures/backgrounds/background-town.jpg",
+    "platformPath": "/textures/platforms/test-platform.png",
+    "rocketPath": "/textures/rockets/test-rocket.png",
+    "victoryBoxPath": "/textures/victoryBox/test-castle-2.png"
   }
 }

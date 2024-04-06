@@ -12,6 +12,7 @@ export function useBox(props: BoxMetadata): BoxObject {
 
 
     boxObject.cssStyles = {
+        ...boxObject.cssStyles,
         width: boxObject.width,
         height: boxObject.height,
         position: "absolute",

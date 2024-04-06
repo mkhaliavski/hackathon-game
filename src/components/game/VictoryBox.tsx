@@ -17,6 +17,6 @@ export const VictoryBox = (props: VictoryBoxProps) => {
     })
 
     return (
-        <div style={{...victoryBox.cssStyles, backgroundColor: "brown"}}></div>
+        <div style={{background: props.data.textures.victoryBoxPath ? `url(${props.data.textures.victoryBoxPath})` : "brown", backgroundSize: "100% 100%", ...victoryBox.cssStyles}}></div>
     )
 }

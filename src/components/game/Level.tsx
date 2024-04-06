@@ -1,6 +1,6 @@
 import {Screen} from "../Screen";
 import {Background} from "../MovingBackground/backgrounds/Background";
-import {Player} from "../../lib/player/Player";
+import {Player} from "../../lib/player/Player/Player";
 import {useGlobalMoving} from "../../lib/core/game/useGlobalMoving";
 import {Platforms} from "../../lib/environment/Platforms/Platforms";
 import {LevelType} from "../../lib/core/game/level/types";
@@ -9,6 +9,7 @@ import {DeadScreen} from "./DeadScreen/DeadScreen";
 import {VictoryBox} from "./VictoryBox";
 import {VictoryScreen} from "./VictoryScreen/VictoryScreen";
 import {Rockets} from "../../lib/environment/Rockets/Rockets";
+import {usePause} from "../../lib/core/game/usePause";
 
 type LevelProps = {
     data: LevelType
@@ -16,6 +17,7 @@ type LevelProps = {
 export const Level = (props: LevelProps) => {
 
     useGlobalMoving(props.data.speed)
+    usePause()
 
     return (
         <Screen>

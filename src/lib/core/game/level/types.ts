@@ -20,8 +20,6 @@ export type LevelType = {
         backgroundPath: string;
         platformPath: string;
         rocketPath: string;
-        exitPath: string;
+        victoryBoxPath: string;
     }
-
-    platformGap: [number, number]
 }

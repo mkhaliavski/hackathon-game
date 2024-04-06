@@ -10,7 +10,7 @@ export const Platforms = (props: PlatformsProps) => {
         <>
             {
                 props.data.platforms.map((platform, index) => (
-                    <Platform key={index} width={platform.width} initialX={platform.x} initialY={platform.y}/>
+                    <Platform key={index} width={platform.width} initialX={platform.x} initialY={platform.y} texture={props.data.textures.platformPath}/>
                 ))
             }
         </>

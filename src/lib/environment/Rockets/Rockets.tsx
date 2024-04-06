@@ -11,7 +11,7 @@ export const Rockets = (props: RocketsProps) => {
     return (
         <>
             {props.data.rockets.map(rocket => (
-                <Rocket initialX={rocket.x} initialY={rocket.y} extraSpeed={rocket.speed}/>
+                <Rocket initialX={rocket.x} initialY={rocket.y} extraSpeed={rocket.speed} texture={props.data.textures.rocketPath}/>
             ))}
         </>
     )

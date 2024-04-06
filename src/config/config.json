@@ -5,6 +5,14 @@
     "power": 3,
     "max": 40
   },
+  "player": {
+    "width": 100,
+    "height": 100,
+    "runAnimationFrames": [
+      "/textures/player/run_right_1.png",
+      "/textures/player/run_right_2.png"
+    ]
+  },
   "movement": {
     "jumpPower": 400,
     "horizontalSpeed": 10

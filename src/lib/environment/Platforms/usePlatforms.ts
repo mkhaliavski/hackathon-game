@@ -5,7 +5,6 @@ import {BoxStatus} from "../../core/boxes/types";
 import {createBox} from "../../core/boxes/utils";
 import {LevelType} from "../../core/game/level/types";
 import config from "../../../config/config.json"
-import {useTick} from "../../core/ticks/tick";
 
 export function usePlatforms(props:LevelType) {
 
