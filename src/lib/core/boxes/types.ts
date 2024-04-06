@@ -25,7 +25,7 @@ export type BoxMetadata = {
     width: number;
     height: number;
 
-    type: 'player' | 'platform' | 'victory';
+    type: 'player' | 'platform' | 'victory' | 'rocket';
 
     initialX: number;
     initialY: number;

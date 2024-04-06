@@ -8,7 +8,7 @@ export type LevelType = {
     rockets: Array<{
         x: number;
         y: number;
-        extraSpeed?: number;
+        speed?: number;
     }>
     victory: {
         width: number;

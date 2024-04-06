@@ -1,11 +1,11 @@
-import {useGameData} from "../core/game/useGameData";
-import {useRerender} from "../core/game/useRerender";
+import {useGameData} from "../../core/game/useGameData";
+import {useRerender} from "../../core/game/useRerender";
 import {useEffect} from "react";
-import {BoxStatus} from "../core/boxes/types";
-import {createBox} from "../core/boxes/utils";
-import {LevelType} from "../core/game/level/types";
-import config from "../../config/config.json"
-import {useTick} from "../core/ticks/tick";
+import {BoxStatus} from "../../core/boxes/types";
+import {createBox} from "../../core/boxes/utils";
+import {LevelType} from "../../core/game/level/types";
+import config from "../../../config/config.json"
+import {useTick} from "../../core/ticks/tick";
 
 export function usePlatforms(props:LevelType) {
 
