@@ -1,0 +1,15 @@
+{
+  "tickMs": 25,
+  "startTimer": 3,
+  "gravity": {
+    "power": 3,
+    "max": 40
+  },
+  "movement": {
+    "jumpPower": 400,
+    "horizontalSpeed": 10
+  },
+  "platforms": {
+    "height": 50
+  }
+}
