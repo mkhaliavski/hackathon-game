@@ -1,0 +1,124 @@
+{
+  "speed": 7,
+  "platforms": [
+    {
+      "x": 0,
+      "y": 650,
+      "width": 400
+    },
+    {
+      "x": 600,
+      "y": 600,
+      "width": 150
+    },
+    {
+      "x": 950,
+      "y": 600,
+      "width": 150
+    },
+    {
+      "x": 1300,
+      "y": 600,
+      "width": 150
+    },
+    {
+      "x": 1400,
+      "y": 300,
+      "width": 200
+    },
+    {
+      "x": 2100,
+      "y": 300,
+      "width": 200
+    },
+    {
+      "x": 1800,
+      "y": 400,
+      "width": 100
+    },
+    {
+      "x": 2500,
+      "y": 100,
+      "width": 200
+    },
+    {
+      "x": 2900,
+      "y": 300,
+      "width": 100
+    },
+    {
+      "x": 3200,
+      "y": 500,
+      "width": 300
+    },
+    {
+      "x": 3500,
+      "y": 650,
+      "width": 550
+    },
+    {
+      "x": 4000,
+      "y": 600,
+      "width": 50
+    },
+    {
+      "x": 4000,
+      "y": 550,
+      "width": 50
+    },
+    {
+      "x": 4000,
+      "y": 500,
+      "width": 50
+    }
+  ],
+  "rockets": [
+    {
+      "x": 11000,
+      "y": 400,
+      "speed": 5
+    },
+    {
+      "x": 11500,
+      "y": 600,
+      "speed": 5
+    },
+    {
+      "x": 1500,
+      "y": 500,
+      "speed": 7
+    },
+    {
+      "x": 2500,
+      "y": 200,
+      "speed": 8
+    },
+    {
+      "x": 11500,
+      "y": 400,
+      "speed": 5
+    },
+    {
+      "x": 3500,
+      "y": 200,
+      "speed": 7
+    },
+    {
+      "x": 6500,
+      "y": 300,
+      "speed": 8
+    }
+  ],
+  "victory": {
+    "width": 200,
+    "height": 200,
+    "x": 3800,
+    "y": 490
+  },
+  "textures": {
+    "backgroundPath": "/textures/backgrounds/Tunnel.png",
+    "platformPath": "/textures/platforms/city_1_platform.png",
+    "rocketPath": "/textures/rockets/wattermellon.png",
+    "victoryBoxPath": "/textures/victoryBox/Hostages.png"
+  }
+}

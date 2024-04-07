@@ -1,55 +1,55 @@
 {
-  "speed": 7,
+  "speed": 5,
   "platforms": [
     {
-      "x": 20,
-      "y": 800,
-      "width": 800
-    },
-    {
-      "x": 850,
-      "y": 500,
-      "width": 300
-    },
-    {
-      "x": 1200,
-      "y": 800,
-      "width": 500
-    },
-    {
-      "x": 1900,
+      "x": 0,
       "y": 650,
-      "width": 400
+      "width": 1000
     },
     {
-      "x": 2500,
-      "y": 400,
-      "width": 450
-    },
-    {
-      "x": 3200,
-      "y": 900,
-      "width": 600
-    },
-    {
-      "x": 3900,
-      "y": 600,
-      "width": 400
-    },
-    {
-      "x": 4450,
-      "y": 400,
+      "x": 800,
+      "y": 350,
       "width": 300
     },
     {
-      "x": 4850,
-      "y": 200,
-      "width": 300
+      "x": 1400,
+      "y": 550,
+      "width": 400
     },
     {
-      "x": 5500,
-      "y": 600,
+      "x": 1400,
+      "y": 150,
       "width": 400
+    },
+    {
+      "x": 2000,
+      "y": 250,
+      "width": 100
+    },
+    {
+      "x": 2000,
+      "y": 450,
+      "width": 100
+    },
+    {
+      "x": 2300,
+      "y": 350,
+      "width": 100
+    },
+    {
+      "x": 2700,
+      "y": 550,
+      "width": 200
+    },
+    {
+      "x": 3000,
+      "y": 300,
+      "width": 200
+    },
+    {
+      "x": 3500,
+      "y": 650,
+      "width": 800
     }
   ],
   "rockets": [
@@ -60,7 +60,7 @@
     },
     {
       "x": 1500,
-      "y": 700,
+      "y": 600,
       "speed": 12
     },
     {
@@ -75,25 +75,45 @@
     },
     {
       "x": 4400,
-      "y": 200,
+      "y": 150,
       "speed": 5
     },
     {
       "x": 4400,
       "y": 500,
       "speed": 5
+    },
+    {
+      "x": 5400,
+      "y": 300,
+      "speed": 5
+    },  
+    {
+      "x": 9400,
+      "y": 400,
+      "speed": 7
+    },
+    {
+      "x": 9400,
+      "y": 650,
+      "speed": 6
+    },
+    {
+      "x": 9000,
+      "y": 500,
+      "speed": 8
     }
   ],
   "victory": {
     "width": 200,
     "height": 200,
-    "x": 5700,
-    "y": 400
+    "x": 3800,
+    "y": 480
   },
   "textures": {
-    "backgroundPath": "/textures/backgrounds/background-town.jpg",
-    "platformPath": "/textures/platforms/test-platform.png",
-    "rocketPath": "/textures/rockets/test-rocket.png",
-    "victoryBoxPath": "/textures/victoryBox/test-castle-2.png"
+    "backgroundPath": "/textures/backgrounds/city_telaviv_4.png",
+    "platformPath": "/textures/platforms/bricks.png",
+    "rocketPath": "/textures/rockets/Rocket_1.png",
+    "victoryBoxPath": "/textures/victoryBox/Bunker.png"
   }
 }

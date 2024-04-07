@@ -12,7 +12,7 @@ import styles from "./Player.module.css";
 import {usePlayerAnimations} from "../usePlayerAnimations";
 export const Player = () => {
 
-    const box = useBox({width: config.player.width, height: config.player.height, type: 'player', initialX: 150, initialY: 600, initialStatus: BoxStatus.FALLING})
+    const box = useBox({width: config.player.width, height: config.player.height, type: 'player', initialX: 150, initialY: 550, initialStatus: BoxStatus.FALLING})
     useWalls(box)
     useGravity(box)
     useJump(box)

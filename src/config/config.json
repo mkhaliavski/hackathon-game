@@ -1,18 +1,30 @@
 {
   "tickMs": 25,
-  "startTimer": 3,
+  "startTimer": 1,
   "gravity": {
-    "power": 3,
+    "power": 2,
     "max": 40
   },
   "player": {
     "width": 100,
     "height": 100,
     "runAnimationFrames": [
-      "/textures/player/run_right_1.png",
-      "/textures/player/run_right_2.png"
+      "/textures/player/zohna_r1.png",
+      "/textures/player/zohna_r1.png",
+      "/textures/player/zohna_r2.png",
+      "/textures/player/zohna_r2.png",
+      "/textures/player/zohna_l1.png",
+      "/textures/player/zohna_l1.png",
+      "/textures/player/zohna_l2.png",
+      "/textures/player/zohna_l2.png",
+      "/textures/player/zohna_l3.png",
+      "/textures/player/zohna_l3.png"
     ],
-    "crouchFrame": "/textures/player/crouch_right_1.png"
+    "crouchRight": "/textures/player/crouch_right_1.png",
+    "jumpAnimationFrames": [
+      "/textures/player/zohna_l3.png",
+      "/textures/player/zohna_l2.png"
+    ]
   },
   "movement": {
     "jumpPower": 400,
@@ -22,7 +34,7 @@
     "height": 50
   },
   "rockets": {
-    "height": 30,
+    "height": 50,
     "width": 100
   }
 }
