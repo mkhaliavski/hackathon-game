@@ -21,7 +21,7 @@ export function usePlayerAnimations(player: BoxObject) {
                 newAnimation = config.player.runAnimationFrames[animationFrameIndex]
                 break;
             default:
-                newAnimation = PlayerCrunchRight1;
+                newAnimation = config.player.crouchFrame;
         }
 
         if (currentAnimation.current !== newAnimation) {

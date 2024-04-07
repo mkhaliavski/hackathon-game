@@ -11,7 +11,8 @@
     "runAnimationFrames": [
       "/textures/player/run_right_1.png",
       "/textures/player/run_right_2.png"
-    ]
+    ],
+    "crouchFrame": "/textures/player/crouch_right_1.png"
   },
   "movement": {
     "jumpPower": 400,

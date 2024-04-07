@@ -12,7 +12,7 @@ export function useJump(player: BoxObject) {
     const rerender = useRerender();
 
     useKey('ArrowUp', () => {
-        if (player.status !== BoxStatus.FALLING && player.status !== BoxStatus.AFTER_JUMP) {
+        if (player.status !== BoxStatus.FALLING && player.status !== BoxStatus.AFTER_JUMP && player.status !== BoxStatus.JUMPING) {
             player.status = BoxStatus.JUMPING;
             currentJump.current = config.movement.jumpPower
         }
