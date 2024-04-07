@@ -21,7 +21,10 @@ export function usePlayerAnimations(player: BoxObject) {
                 newAnimation = config.player.runAnimationFrames[animationFrameIndex]
                 break;
             default:
-                newAnimation = config.player.crouchFrame;
+                const animationJumpFrameIndex = (Math.round(currentTick / 500) % config.player.jumpAnimationFrames.length);
+                newAnimation = config.player.jumpAnimationFrames[animationJumpFrameIndex]
+                //const PlayerCruchRight1 = config.player.crouchRight;
+                //newAnimation = PlayerCruchRight1;
         }
 
         if (currentAnimation.current !== newAnimation) {
